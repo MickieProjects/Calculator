@@ -1,1 +1,2 @@
 
+![รูปภาพ](image/Calculator.png)
