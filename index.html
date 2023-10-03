@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator Project</title>
+</head>
+<body>
+    
+    <h1>Calculator</h1>
+    <div class="container">
+        <!-- Output -->
+        <div id="output">00</div>
+
+        <!-- Inputs -->
+        <input type="text" id="input1" placeholder="Value1" />
+        <input type="text" id="input2" placeholder="Value2" />
+
+        <!-- Buttons -->
+        <div class="btns-container">
+          <button class="btns" onclick="add()">Addition</button>
+          <button class="btns" onclick="sub()">Substract</button>
+          <button class="btns" onclick="mul()">Multiply</button>
+          <button class="btns" onclick="div()">Division</button>
+          <button class="btns" onclick="reset()" id="reset">Reset</button>
+        </div>
+        <br />
+    </div>
+
+    <!-- import JS -->
+    <script src="script.js" charset="UTF-8"></script>
+</body>
+</html>
