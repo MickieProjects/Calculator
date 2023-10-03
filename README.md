@@ -1,4 +1,6 @@
 
+![รูปภาพ](image/Calculator.png)
+
 ### Key Function
 
 - Addition
@@ -6,5 +8,3 @@
 - Multiply
 - Division
 - Reset
-
-![รูปภาพ](image/Calculator.png)
